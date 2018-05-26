@@ -5,7 +5,10 @@ import App from './App'
 import router from './router'
 import "../src/common/css/base.css"
 import '../src/common/js/font_size'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 import fastclick from 'fastclick'
+Vue.use(MintUI);
 Vue.config.productionTip = false
 // 这个插件是移动端300秒延迟
 fastclick.attach(document.body)
