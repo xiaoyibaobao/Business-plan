@@ -31,6 +31,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-
+.mint-tabbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 </style>
 

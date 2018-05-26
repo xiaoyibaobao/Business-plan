@@ -8,6 +8,10 @@ import '../src/common/js/font_size'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import fastclick from 'fastclick'
+import VideoPlayer from 'vue-video-player'
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+Vue.use(VideoPlayer);
 Vue.use(MintUI);
 Vue.config.productionTip = false
 // 这个插件是移动端300秒延迟
